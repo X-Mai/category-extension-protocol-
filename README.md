@@ -1,6 +1,11 @@
 # category和extension区别,以及protocol
 ### ios category和extension区别,以及protocol的总结:
 
+#### protocol:就是定义协议咯
+- @required:表示必须实现的方法
+- @optional:表示可选的实现方法
+- 协议的实现:在对应类里实现对应协议
+
 #### category和extension区别参考:
 - https://www.jianshu.com/p/6706892a050e
 - https://www.jianshu.com/p/e3d6b1aa7618
@@ -70,3 +75,4 @@ b：此外，我们也可以直接省略@interface，直接在.m文件里写方�
 
 
 根据网上大神总结帖子整理,供自己查阅使用
+
